@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCD1F96F2D3CF5FA00DC02F8 /* MFSCNExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = BCD1F96E2D3CF5FA00DC02F8 /* MFSCNExtensions */; };
+		BCD1F9762D3D062A00DC02F8 /* MFGridUtils in Frameworks */ = {isa = PBXBuildFile; productRef = BCD1F9752D3D062A00DC02F8 /* MFGridUtils */; };
+		BCD1F9792D3D075C00DC02F8 /* MFGridUtils in Frameworks */ = {isa = PBXBuildFile; productRef = BCD1F9782D3D075C00DC02F8 /* MFGridUtils */; };
+		BCD1F9CB2D3D111200DC02F8 /* ReadMe.md in Resources */ = {isa = PBXBuildFile; fileRef = BCD1F9CA2D3D111200DC02F8 /* ReadMe.md */; };
+		BCD1F9CD2D3D111D00DC02F8 /* MeshLabScreenshot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCD1F9CC2D3D111D00DC02F8 /* MeshLabScreenshot.jpg */; };
+		BCD1F9CF2D3D114400DC02F8 /* Icon_128.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD1F9CE2D3D114400DC02F8 /* Icon_128.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BCD1F92B2D3CF5A900DC02F8 /* MFGridMeshLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MFGridMeshLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD1F93C2D3CF5A900DC02F8 /* MFGridMeshLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MFGridMeshLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD1F94C2D3CF5A900DC02F8 /* MFGridMeshLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MFGridMeshLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD1F9CA2D3D111200DC02F8 /* ReadMe.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
+		BCD1F9CC2D3D111D00DC02F8 /* MeshLabScreenshot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MeshLabScreenshot.jpg; sourceTree = "<group>"; };
+		BCD1F9CE2D3D114400DC02F8 /* Icon_128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_128.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BCD1F95F2D3CF5A900DC02F8 /* Exceptions for "MFGridMeshLab Shared" folder in "MFGridMeshLab iOS" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Art.scnassets,
+				Assets.xcassets,
+				GameController.swift,
+			);
+			target = BCD1F92A2D3CF5A900DC02F8 /* MFGridMeshLab iOS */;
+		};
+		BCD1F9632D3CF5A900DC02F8 /* Exceptions for "MFGridMeshLab Shared" folder in "MFGridMeshLab tvOS" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Art.scnassets,
+				Assets.xcassets,
+				GameController.swift,
+			);
+			target = BCD1F93B2D3CF5A900DC02F8 /* MFGridMeshLab tvOS */;
+		};
+		BCD1F9672D3CF5A900DC02F8 /* Exceptions for "MFGridMeshLab Shared" folder in "MFGridMeshLab macOS" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Art.scnassets,
+				Assets.xcassets,
+				GameController.swift,
+			);
+			target = BCD1F94B2D3CF5A900DC02F8 /* MFGridMeshLab macOS */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BCD1F9232D3CF5A400DC02F8 /* MFGridMeshLab Shared */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BCD1F95F2D3CF5A900DC02F8 /* Exceptions for "MFGridMeshLab Shared" folder in "MFGridMeshLab iOS" target */,
+				BCD1F9632D3CF5A900DC02F8 /* Exceptions for "MFGridMeshLab Shared" folder in "MFGridMeshLab tvOS" target */,
+				BCD1F9672D3CF5A900DC02F8 /* Exceptions for "MFGridMeshLab Shared" folder in "MFGridMeshLab macOS" target */,
+			);
+			path = "MFGridMeshLab Shared";
+			sourceTree = "<group>";
+		};
+		BCD1F92D2D3CF5A900DC02F8 /* MFGridMeshLab iOS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "MFGridMeshLab iOS";
+			sourceTree = "<group>";
+		};
+		BCD1F93D2D3CF5A900DC02F8 /* MFGridMeshLab tvOS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "MFGridMeshLab tvOS";
+			sourceTree = "<group>";
+		};
+		BCD1F94D2D3CF5A900DC02F8 /* MFGridMeshLab macOS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "MFGridMeshLab macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCD1F9282D3CF5A900DC02F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD1F9392D3CF5A900DC02F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD1F9492D3CF5A900DC02F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD1F96F2D3CF5FA00DC02F8 /* MFSCNExtensions in Frameworks */,
+				BCD1F9762D3D062A00DC02F8 /* MFGridUtils in Frameworks */,
+				BCD1F9792D3D075C00DC02F8 /* MFGridUtils in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCD1F91E2D3CF5A400DC02F8 = {
+			isa = PBXGroup;
+			children = (
+				BCD1F9CA2D3D111200DC02F8 /* ReadMe.md */,
+				BCD1F9CE2D3D114400DC02F8 /* Icon_128.png */,
+				BCD1F9CC2D3D111D00DC02F8 /* MeshLabScreenshot.jpg */,
+				BCD1F9232D3CF5A400DC02F8 /* MFGridMeshLab Shared */,
+				BCD1F92D2D3CF5A900DC02F8 /* MFGridMeshLab iOS */,
+				BCD1F93D2D3CF5A900DC02F8 /* MFGridMeshLab tvOS */,
+				BCD1F94D2D3CF5A900DC02F8 /* MFGridMeshLab macOS */,
+				BCD1F92C2D3CF5A900DC02F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCD1F92C2D3CF5A900DC02F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCD1F92B2D3CF5A900DC02F8 /* MFGridMeshLab.app */,
+				BCD1F93C2D3CF5A900DC02F8 /* MFGridMeshLab.app */,
+				BCD1F94C2D3CF5A900DC02F8 /* MFGridMeshLab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCD1F92A2D3CF5A900DC02F8 /* MFGridMeshLab iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD1F9602D3CF5A900DC02F8 /* Build configuration list for PBXNativeTarget "MFGridMeshLab iOS" */;
+			buildPhases = (
+				BCD1F9272D3CF5A900DC02F8 /* Sources */,
+				BCD1F9282D3CF5A900DC02F8 /* Frameworks */,
+				BCD1F9292D3CF5A900DC02F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BCD1F92D2D3CF5A900DC02F8 /* MFGridMeshLab iOS */,
+			);
+			name = "MFGridMeshLab iOS";
+			packageProductDependencies = (
+			);
+			productName = "MFGridMeshLab iOS";
+			productReference = BCD1F92B2D3CF5A900DC02F8 /* MFGridMeshLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCD1F93B2D3CF5A900DC02F8 /* MFGridMeshLab tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD1F9642D3CF5A900DC02F8 /* Build configuration list for PBXNativeTarget "MFGridMeshLab tvOS" */;
+			buildPhases = (
+				BCD1F9382D3CF5A900DC02F8 /* Sources */,
+				BCD1F9392D3CF5A900DC02F8 /* Frameworks */,
+				BCD1F93A2D3CF5A900DC02F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BCD1F93D2D3CF5A900DC02F8 /* MFGridMeshLab tvOS */,
+			);
+			name = "MFGridMeshLab tvOS";
+			packageProductDependencies = (
+			);
+			productName = "MFGridMeshLab tvOS";
+			productReference = BCD1F93C2D3CF5A900DC02F8 /* MFGridMeshLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCD1F94B2D3CF5A900DC02F8 /* MFGridMeshLab macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD1F9682D3CF5A900DC02F8 /* Build configuration list for PBXNativeTarget "MFGridMeshLab macOS" */;
+			buildPhases = (
+				BCD1F9482D3CF5A900DC02F8 /* Sources */,
+				BCD1F9492D3CF5A900DC02F8 /* Frameworks */,
+				BCD1F94A2D3CF5A900DC02F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BCD1F94D2D3CF5A900DC02F8 /* MFGridMeshLab macOS */,
+			);
+			name = "MFGridMeshLab macOS";
+			packageProductDependencies = (
+				BCD1F96E2D3CF5FA00DC02F8 /* MFSCNExtensions */,
+				BCD1F9752D3D062A00DC02F8 /* MFGridUtils */,
+				BCD1F9782D3D075C00DC02F8 /* MFGridUtils */,
+			);
+			productName = "MFGridMeshLab macOS";
+			productReference = BCD1F94C2D3CF5A900DC02F8 /* MFGridMeshLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCD1F91F2D3CF5A400DC02F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					BCD1F92A2D3CF5A900DC02F8 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					BCD1F93B2D3CF5A900DC02F8 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					BCD1F94B2D3CF5A900DC02F8 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = BCD1F9222D3CF5A400DC02F8 /* Build configuration list for PBXProject "MFGridMeshLab" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCD1F91E2D3CF5A400DC02F8;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				BCD1F96D2D3CF5FA00DC02F8 /* XCLocalSwiftPackageReference "../../mftoolkit/MFSCNExtensions" */,
+				BCD1F9772D3D075C00DC02F8 /* XCLocalSwiftPackageReference "../../mftoolkit/MFGridUtils" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BCD1F92C2D3CF5A900DC02F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCD1F92A2D3CF5A900DC02F8 /* MFGridMeshLab iOS */,
+				BCD1F93B2D3CF5A900DC02F8 /* MFGridMeshLab tvOS */,
+				BCD1F94B2D3CF5A900DC02F8 /* MFGridMeshLab macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCD1F9292D3CF5A900DC02F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD1F9CF2D3D114400DC02F8 /* Icon_128.png in Resources */,
+				BCD1F9CD2D3D111D00DC02F8 /* MeshLabScreenshot.jpg in Resources */,
+				BCD1F9CB2D3D111200DC02F8 /* ReadMe.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD1F93A2D3CF5A900DC02F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD1F94A2D3CF5A900DC02F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCD1F9272D3CF5A900DC02F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD1F9382D3CF5A900DC02F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD1F9482D3CF5A900DC02F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BCD1F9612D3CF5A900DC02F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VMXFN634RR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moosefactory.MFGridMeshLab;
+				PRODUCT_NAME = MFGridMeshLab;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCD1F9622D3CF5A900DC02F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VMXFN634RR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moosefactory.MFGridMeshLab;
+				PRODUCT_NAME = MFGridMeshLab;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCD1F9652D3CF5A900DC02F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VMXFN634RR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moosefactory.MFGridMeshLab;
+				PRODUCT_NAME = MFGridMeshLab;
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 18.0;
+			};
+			name = Debug;
+		};
+		BCD1F9662D3CF5A900DC02F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VMXFN634RR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moosefactory.MFGridMeshLab;
+				PRODUCT_NAME = MFGridMeshLab;
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 18.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCD1F9692D3CF5A900DC02F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "MFGridMeshLab macOS/MFGridMeshLab_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VMXFN634RR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moosefactory.MFGridMeshLab;
+				PRODUCT_NAME = MFGridMeshLab;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BCD1F96A2D3CF5A900DC02F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "MFGridMeshLab macOS/MFGridMeshLab_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VMXFN634RR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moosefactory.MFGridMeshLab;
+				PRODUCT_NAME = MFGridMeshLab;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BCD1F96B2D3CF5A900DC02F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCD1F96C2D3CF5A900DC02F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCD1F9222D3CF5A400DC02F8 /* Build configuration list for PBXProject "MFGridMeshLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD1F96B2D3CF5A900DC02F8 /* Debug */,
+				BCD1F96C2D3CF5A900DC02F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD1F9602D3CF5A900DC02F8 /* Build configuration list for PBXNativeTarget "MFGridMeshLab iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD1F9612D3CF5A900DC02F8 /* Debug */,
+				BCD1F9622D3CF5A900DC02F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD1F9642D3CF5A900DC02F8 /* Build configuration list for PBXNativeTarget "MFGridMeshLab tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD1F9652D3CF5A900DC02F8 /* Debug */,
+				BCD1F9662D3CF5A900DC02F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD1F9682D3CF5A900DC02F8 /* Build configuration list for PBXNativeTarget "MFGridMeshLab macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD1F9692D3CF5A900DC02F8 /* Debug */,
+				BCD1F96A2D3CF5A900DC02F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		BCD1F96D2D3CF5FA00DC02F8 /* XCLocalSwiftPackageReference "../../mftoolkit/MFSCNExtensions" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../mftoolkit/MFSCNExtensions;
+		};
+		BCD1F9772D3D075C00DC02F8 /* XCLocalSwiftPackageReference "../../mftoolkit/MFGridUtils" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../mftoolkit/MFGridUtils;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BCD1F96E2D3CF5FA00DC02F8 /* MFSCNExtensions */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MFSCNExtensions;
+		};
+		BCD1F9752D3D062A00DC02F8 /* MFGridUtils */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MFGridUtils;
+		};
+		BCD1F9782D3D075C00DC02F8 /* MFGridUtils */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MFGridUtils;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BCD1F91F2D3CF5A400DC02F8 /* Project object */;
+}
