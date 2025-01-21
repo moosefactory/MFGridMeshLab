@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BCBE0A052D404E460016D1B2 /* MeshLabScreenshot2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MeshLabScreenshot2.jpg; sourceTree = "<group>"; };
 		BCD1F92B2D3CF5A900DC02F8 /* MFGridMeshLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MFGridMeshLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCD1F93C2D3CF5A900DC02F8 /* MFGridMeshLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MFGridMeshLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCD1F94C2D3CF5A900DC02F8 /* MFGridMeshLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MFGridMeshLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +117,7 @@
 				BCD1F9CA2D3D111200DC02F8 /* ReadMe.md */,
 				BCD1F9CE2D3D114400DC02F8 /* Icon_128.png */,
 				BCD1F9CC2D3D111D00DC02F8 /* MeshLabScreenshot.jpg */,
+				BCBE0A052D404E460016D1B2 /* MeshLabScreenshot2.jpg */,
 				BCD1F9232D3CF5A400DC02F8 /* MFGridMeshLab Shared */,
 				BCD1F92D2D3CF5A900DC02F8 /* MFGridMeshLab iOS */,
 				BCD1F93D2D3CF5A900DC02F8 /* MFGridMeshLab tvOS */,
@@ -237,8 +239,6 @@
 			mainGroup = BCD1F91E2D3CF5A400DC02F8;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				BCD1F96D2D3CF5FA00DC02F8 /* XCLocalSwiftPackageReference "../../mftoolkit/MFSCNExtensions" */,
-				BCD1F9772D3D075C00DC02F8 /* XCLocalSwiftPackageReference "../../mftoolkit/MFGridUtils" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = BCD1F92C2D3CF5A900DC02F8 /* Products */;
@@ -632,17 +632,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCLocalSwiftPackageReference section */
-		BCD1F96D2D3CF5FA00DC02F8 /* XCLocalSwiftPackageReference "../../mftoolkit/MFSCNExtensions" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../../mftoolkit/MFSCNExtensions;
-		};
-		BCD1F9772D3D075C00DC02F8 /* XCLocalSwiftPackageReference "../../mftoolkit/MFGridUtils" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../../mftoolkit/MFGridUtils;
-		};
-/* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		BCD1F96E2D3CF5FA00DC02F8 /* MFSCNExtensions */ = {
