@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BCBE0A082D40530F0016D1B2 /* MFSCNExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = BCBE0A072D40530F0016D1B2 /* MFSCNExtensions */; };
+		BCBE0A0B2D40531A0016D1B2 /* MFSCNExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = BCBE0A0A2D40531A0016D1B2 /* MFSCNExtensions */; };
+		BCBE0A0D2D40531F0016D1B2 /* MFSCNExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = BCBE0A0C2D40531F0016D1B2 /* MFSCNExtensions */; };
 		BCD1F96F2D3CF5FA00DC02F8 /* MFSCNExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = BCD1F96E2D3CF5FA00DC02F8 /* MFSCNExtensions */; };
 		BCD1F9762D3D062A00DC02F8 /* MFGridUtils in Frameworks */ = {isa = PBXBuildFile; productRef = BCD1F9752D3D062A00DC02F8 /* MFGridUtils */; };
 		BCD1F9792D3D075C00DC02F8 /* MFGridUtils in Frameworks */ = {isa = PBXBuildFile; productRef = BCD1F9782D3D075C00DC02F8 /* MFGridUtils */; };
@@ -88,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCBE0A0B2D40531A0016D1B2 /* MFSCNExtensions in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCBE0A0D2D40531F0016D1B2 /* MFSCNExtensions in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +109,7 @@
 			files = (
 				BCD1F96F2D3CF5FA00DC02F8 /* MFSCNExtensions in Frameworks */,
 				BCD1F9762D3D062A00DC02F8 /* MFGridUtils in Frameworks */,
+				BCBE0A082D40530F0016D1B2 /* MFSCNExtensions in Frameworks */,
 				BCD1F9792D3D075C00DC02F8 /* MFGridUtils in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -111,6 +117,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BCBE0A092D40531A0016D1B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BCD1F91E2D3CF5A400DC02F8 = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +135,7 @@
 				BCD1F92D2D3CF5A900DC02F8 /* MFGridMeshLab iOS */,
 				BCD1F93D2D3CF5A900DC02F8 /* MFGridMeshLab tvOS */,
 				BCD1F94D2D3CF5A900DC02F8 /* MFGridMeshLab macOS */,
+				BCBE0A092D40531A0016D1B2 /* Frameworks */,
 				BCD1F92C2D3CF5A900DC02F8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -156,6 +170,7 @@
 			);
 			name = "MFGridMeshLab iOS";
 			packageProductDependencies = (
+				BCBE0A0A2D40531A0016D1B2 /* MFSCNExtensions */,
 			);
 			productName = "MFGridMeshLab iOS";
 			productReference = BCD1F92B2D3CF5A900DC02F8 /* MFGridMeshLab.app */;
@@ -178,6 +193,7 @@
 			);
 			name = "MFGridMeshLab tvOS";
 			packageProductDependencies = (
+				BCBE0A0C2D40531F0016D1B2 /* MFSCNExtensions */,
 			);
 			productName = "MFGridMeshLab tvOS";
 			productReference = BCD1F93C2D3CF5A900DC02F8 /* MFGridMeshLab.app */;
@@ -203,6 +219,7 @@
 				BCD1F96E2D3CF5FA00DC02F8 /* MFSCNExtensions */,
 				BCD1F9752D3D062A00DC02F8 /* MFGridUtils */,
 				BCD1F9782D3D075C00DC02F8 /* MFGridUtils */,
+				BCBE0A072D40530F0016D1B2 /* MFSCNExtensions */,
 			);
 			productName = "MFGridMeshLab macOS";
 			productReference = BCD1F94C2D3CF5A900DC02F8 /* MFGridMeshLab.app */;
@@ -239,6 +256,7 @@
 			mainGroup = BCD1F91E2D3CF5A400DC02F8;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
+				BCBE0A062D40530F0016D1B2 /* XCRemoteSwiftPackageReference "MFSCNExtensions" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = BCD1F92C2D3CF5A900DC02F8 /* Products */;
@@ -633,7 +651,33 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		BCBE0A062D40530F0016D1B2 /* XCRemoteSwiftPackageReference "MFSCNExtensions" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/moosefactory/MFSCNExtensions.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
+		BCBE0A072D40530F0016D1B2 /* MFSCNExtensions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BCBE0A062D40530F0016D1B2 /* XCRemoteSwiftPackageReference "MFSCNExtensions" */;
+			productName = MFSCNExtensions;
+		};
+		BCBE0A0A2D40531A0016D1B2 /* MFSCNExtensions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BCBE0A062D40530F0016D1B2 /* XCRemoteSwiftPackageReference "MFSCNExtensions" */;
+			productName = MFSCNExtensions;
+		};
+		BCBE0A0C2D40531F0016D1B2 /* MFSCNExtensions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BCBE0A062D40530F0016D1B2 /* XCRemoteSwiftPackageReference "MFSCNExtensions" */;
+			productName = MFSCNExtensions;
+		};
 		BCD1F96E2D3CF5FA00DC02F8 /* MFSCNExtensions */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = MFSCNExtensions;
