@@ -36,7 +36,7 @@ Build and run.
 
 ### 2 - Add some depth and color
 
-#### Define a height computation function.
+#### Height function.
 
 ```
 // It basically makes a linear clif with a bit of variation
@@ -51,7 +51,7 @@ let heightBlock: MFSCNHeightComputeBlock = { _, loc, locp in
 }
 ```
 
-#### Define a color computation function
+#### Color function
 
 ![MeshLabScreenshot Image](MeshLabScreenshot2.jpg)
 
@@ -66,10 +66,11 @@ let colorBlock: MFSCNColorComputeBlock = { value, gridLoc, location, vertice in
         return SCNVector4(x: 0, y: 0, z: 1, w: 1)
     }
 }
+```
 
-### We create the  mesh
-// 4 - Create a mesh using the grid
+### Mesh creation
 
+```
 let meshNode = MFSCNGridMeshNode(grid: grid,
                                  heightComputeBlock: heightBlock,
                                  colorComputeBlock: colorBlock)
